@@ -43,7 +43,8 @@ body {
     background-color: rgba(191, 248, 248);
 }
 /*Aqui procedemos a desarrollar las mediciones para cada uno de nuestras etiquetas de la estructura.*/
-.grid-container {
+@media(min-width: 320px) {
+    .grid-container {
     display: grid;
     gap: 10px;
     grid-template:
@@ -53,6 +54,18 @@ body {
     'aside'   100px
     'footer'  100px;
 }
+.border {
+    width: auto;
+
+}
+.swiper {
+    width: 320px;
+
+}
+}
+
+
+
 @media (min-width: 600px) {
     .grid-container {
     grid-template: 
@@ -96,10 +109,10 @@ body {
     top: 0px;
     }
 }
-.imagen1 {
-    width: 50%;
+.imagen1,.imagen2 {
+    width: 15%;
     height: auto;
-    margin-left: 10px;
+    align-items: center;
 }
 .textart {
     font-size: 20px;

@@ -160,10 +160,12 @@ height:20%;
 }
 .board{
     width: auto;
+    height: auto;
 
 }
 .swiper {
     width: 320px;
+    height: auto;
 }
 
 @media (min-width: 900px) {

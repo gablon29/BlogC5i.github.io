@@ -42,14 +42,14 @@ body {
     grid-area: footer;
     background-color: rgba(191, 248, 248);
 }
-@media (min-width: 600px) {
+@media (min-width: 320px) {
 /*Aqui procedemos a desarrollar las mediciones para cada uno de nuestras etiquetas de la estructura.*/
 .grid-container {
     display: grid;
     gap: 10px;
     grid-template:
     'header'  100px
-    'nav'     100px
+    'nav'     50px
     'article' auto
     'aside'   50px
     'footer'  100px;

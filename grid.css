@@ -54,13 +54,6 @@ body {
     'aside'   150px
     'footer'  100px;
 }
-.board{
-    width: auto;
-
-}
-.swiper {
-    width: 320px;
-}
 .re{
     margin: auto;
     text-align: left;
@@ -164,6 +157,13 @@ height:20%;
 .swiper .swiper-button-prev, .swiper-button-next{
     color: var(--color-text);
 }
+}
+.board{
+    width: auto;
+
+}
+.swiper {
+    width: 320px;
 }
 
 @media (min-width: 900px) {

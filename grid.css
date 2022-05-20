@@ -92,7 +92,7 @@ animation-iteration-count: 3;
 width:20%;
 height:20%;
 }
-    }
+
     @keyframes bounce{
         0% {
         top: 0px;

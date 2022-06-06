@@ -105,3 +105,8 @@ font-size:0.8em;
 .swiper .swiper-button-prev, .swiper-button-next{ 
 color: var(--color-text); 
 }
+@media (max-width: 450px) { 
+.text-coment{
+  font-size: 20px;
+}
+}
